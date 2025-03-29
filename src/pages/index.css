@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-[#111c2d] text-white;
+  }
+}
+
+@layer utilities {
+  .bg-gradient-overlay {
+    background: linear-gradient(to bottom right, rgba(30, 41, 59, 0.8), rgba(88, 28, 135, 0.8));
+  }
+}
+
+/* Version 2 Specific Styles */
+.v2-card {
+  @apply relative overflow-hidden rounded-xl border border-blue-500/20 transition-all duration-300;
+}
+
+.v2-card::before {
+  content: '';
+  @apply absolute inset-0 bg-gradient-to-r from-blue-500/5 to-purple-500/5 opacity-0 transition-opacity duration-300;
+}
+
+.v2-card:hover::before {
+  @apply opacity-100;
+}
+
+.v2-card::after {
+  content: '';
+  @apply absolute inset-0 bg-gradient-to-r from-blue-500/10 to-purple-500/10 opacity-0 blur-xl transition-opacity duration-300;
+}
+
+.v2-card:hover::after {
+  @apply opacity-100;
+}
+
+/* Animations */
+@keyframes border-flow {
+  0% {
+    clip-path: inset(0 0 98% 0);
+  }
+  25% {
+    clip-path: inset(0 0 0 98%);
+  }
+  50% {
+    clip-path: inset(98% 0 0 0);
+  }
+  75% {
+    clip-path: inset(0 98% 0 0);
+  }
+  100% {
+    clip-path: inset(0 0 98% 0);
+  }
+}
+
+.animate-border-flow {
+  animation: border-flow 4s linear infinite;
+}
+
+.animate-pulse {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 0.1;
+  }
+}

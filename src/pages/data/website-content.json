@@ -1,0 +1,117 @@
+{
+  "global": {
+    "siteName": "Netgaurd",
+    "siteDescription": "Enterprise Security & Development Solutions",
+    "contactEmail": "contact@netguard.com",
+    "phone": "+49 (231) 401-4567",
+    "address": {
+      "street": "14 dersden St",
+      "city": "Durtmund",
+      "state": "DE",
+      "zip": "94025",
+      "country": "German"
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "Enterprise Security & Development",
+      "subtitle": "Secure your digital presence with enterprise-grade protection. Build, deploy, and scale with confidence using our comprehensive security solutions.",
+      "cta": "Get Started",
+      "secondaryCta": "View Solutions"
+    },
+    "stats": {
+      "uptime": "99.9%",
+      "countries": "150+",
+      "dataProtected": "10PB+",
+      "support": "24/7"
+    }
+  },
+  "services": {
+    "security": {
+      "title": "Web Security",
+      "description": "Advanced protection against cyber threats, malware, and DDoS attacks",
+      "features": [
+        "Firewall Protection",
+        "DDoS Mitigation",
+        "Malware Scanning",
+        "Real-time Monitoring"
+      ]
+    },
+    "seo": {
+      "title": "SEO Optimization",
+      "description": "Boost your search rankings and increase organic traffic",
+      "features": [
+        "Keyword Research",
+        "Content Strategy",
+        "Technical SEO",
+        "Performance Analysis"
+      ]
+    },
+    "development": {
+      "title": "Development",
+      "description": "Custom web development solutions with security-first approach",
+      "features": [
+        "Custom Web Apps",
+        "API Development",
+        "Cloud Solutions",
+        "Security Integration"
+      ]
+    }
+  },
+  "pricing": {
+    "basic": {
+      "name": "Basic Security",
+      "price": 99,
+      "description": "Essential protection for small websites",
+      "features": [
+        "Firewall Protection",
+        "SSL Certificate",
+        "Malware Scanning"
+      ]
+    },
+    "advanced": {
+      "name": "Advanced Security",
+      "price": 199,
+      "description": "Enhanced protection for growing businesses",
+      "features": [
+        "DDoS Protection",
+        "Real-time Monitoring",
+        "Vulnerability Assessment"
+      ]
+    },
+    "enterprise": {
+      "name": "Enterprise Security",
+      "price": 499,
+      "description": "Complete protection for large organizations",
+      "features": [
+        "Custom Security Rules",
+        "24/7 Support",
+        "Advanced Threat Detection"
+      ]
+    }
+  },
+  "footer": {
+    "description": "Protecting your digital presence with advanced security solutions",
+    "copyright": "© 2024 Netguard.com. All rights reserved.",
+    "links": {
+      "services": [
+        { "text": "Web Security", "url": "/security" },
+        { "text": "SEO Services", "url": "/seo" },
+        { "text": "Development", "url": "/development" },
+        { "text": "Solutions", "url": "/solutions" }
+      ],
+      "company": [
+        { "text": "About Us", "url": "/about" },
+        { "text": "Contact", "url": "/contact" },
+        { "text": "Blog", "url": "/blog" },
+        { "text": "Careers", "url": "/careers" }
+      ],
+      "legal": [
+        { "text": "Privacy Policy", "url": "/privacy-policy" },
+        { "text": "Terms of Service", "url": "/terms" },
+        { "text": "Security", "url": "/security" },
+        { "text": "Compliance", "url": "/compliance" }
+      ]
+    }
+  }
+}
